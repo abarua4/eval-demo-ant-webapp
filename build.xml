@@ -22,6 +22,7 @@
 
   <!-- Define the CLASSPATH -->
   <mkdir  dir="${tcserver.home}/bin"/>
+  <mkdir  dir="${tcserver.home}/lib"/>
   <path id="compile.classpath">
     <fileset dir="${tcserver.home}/bin">
       <include name="*.jar"/>
