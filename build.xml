@@ -24,7 +24,7 @@
   <mkdir  dir="${tcserver.home}/bin"/>
   <mkdir  dir="${tcserver.home}/lib"/>
   <copy  todir="${tcserver.home}/lib">
-      <fileset dir="/usr/java/jdk1.8.0_161/lib" includes="javax.servlet-api-3.1.0.jar"/>
+      <fileset dir="C:\Users\Pratiti\Downloads" includes="javax.servlet-api-3.1.0.jar"/>
   </copy>
   <path id="compile.classpath">
     <fileset dir="${tcserver.home}/bin">
