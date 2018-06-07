@@ -73,5 +73,5 @@
     <jar jarfile="${dist.home}/${app.name}.war"
          basedir="${work.home}"/>
   </target>
-
+<!-- Test Line -->
 </project>
